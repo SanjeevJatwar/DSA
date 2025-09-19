@@ -14,11 +14,7 @@ void insert(int val){
     while(i >1){
         int p = i/2;
         if(arr[p]< arr[i]){
-            swap(arr[p],arr[i]);
-            i = p; 
-        }
-        else return;
-    }
+            swap(
 }
 
 
